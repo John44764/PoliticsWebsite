@@ -1,0 +1,354 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.rectangleButton button a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #023E8A;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 50px;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    background-color: #29028a;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.logo {
+    height: inherit;
+}
+.logoImage {
+    height: inherit;
+}
+
+.navbar a {
+    position: relative;
+    font-size: 18px;
+    color: snow;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+.navbar a::before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: snow;
+    transition: 0.3s;
+}
+.navbar a:hover::before {
+    width: 100%;
+    background: #4ecdc4;
+}
+
+.main {
+    padding-top: 50px;
+}
+.main h1 {
+    font-size: 50px;
+    margin-top: 25px;
+    text-align: center;
+    font-family: sans-serif;
+    color: snow;
+}
+.multiContainer {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    gap: 40px;
+}
+.multiContainer img {
+    width: 400px;
+}
+.multiContainerText  {
+    color: snow;
+}
+.multiContainerImage .Image{
+    max-width: 300px;
+}
+
+.hrefsContainer {
+    display: flex;
+    background-color: snow;
+}
+.hrefsContainer .rectangle1 {
+    margin: 50px 147px 50px 275px;
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    background-color: #29028a;
+    transition: box-shadow 0.3s ease-in-out;
+    border: 0;
+    border-radius: 1.5em;
+}
+.hrefsContainer .rectangle1:hover {
+    margin: 50px 147px 50px 275px;
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    background-color: #29028a;
+    -webkit-box-shadow: -20px -10px 25px 5px rgba(68,68,68,0.8);
+    -moz-box-shadow: -20px -10px 25px 5px rgba(68,68,68,0.8);
+    box-shadow: -20px -10px 25px 5px rgba(68,68,68,0.8);
+    border: 0;
+    border-radius: 1.5em;
+}
+.rectangle1 .rectangleImage {
+    max-width: inherit;
+}
+.rectangle1 .rectangleImage img {
+    border: 0;
+    border-radius: 1.5em;
+    max-width: inherit;
+}
+.rectangle1 .rectangleText {
+    color: snow;
+    display: grid;
+    place-items: center;
+    padding: 10px 15px;
+}
+.rectangle1 .rectangleText h3 {
+    text-align: inherit;
+}
+.rectangle1 .rectangleText p {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: inherit;
+}
+.rectangle1 .rectangleButton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  /* This will center the button horizontally */
+}
+.rectangle1 .rectangleButton button{
+    padding: 10px;
+    margin: 15px;
+    border: 0;
+    border-radius: 0.5em;
+    color: snow;
+}
+.rectangle1 .rectangleButton button a{
+    color: #29028a;
+}
+
+.hrefsContainer .rectangle2 {
+    margin: 50px 147px 50px 147px;
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    background-color: #29028a;
+    transition: box-shadow 0.3s ease-in-out;
+    border: 0;
+    border-radius: 1.5em;
+}
+.hrefsContainer .rectangle2:hover {
+    margin: 50px 147px 50px 147px;
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    background-color: #29028a;
+    -webkit-box-shadow: 0px -15px 25px 5px rgba(68,68,68,0.8);
+    -moz-box-shadow: 0px -15px 25px 5px rgba(68,68,68,0.8);
+    box-shadow: 0px -15px 25px 5px rgba(68,68,68,0.8);
+    border: 0;
+    border-radius: 1.5em;
+}
+.rectangle2 .rectangleImage {
+    max-width: inherit;
+}
+.rectangle2 .rectangleImage img {
+    border: 0;
+    border-radius: 1.5em;
+    max-width: inherit;
+}
+.rectangle2 .rectangleText {
+    color: snow;
+    display: grid;
+    place-items: center;
+    padding: 10px 15px;
+}
+.rectangle2 .rectangleText h3 {
+    text-align: inherit;
+}
+.rectangle2 .rectangleText p {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: inherit;
+}
+.rectangle2 .rectangleButton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  /* This will center the button horizontally */
+}
+.rectangle2 .rectangleButton button{
+    padding: 10px;
+    margin: 15px;
+    border: 0;
+    border-radius: 0.5em;
+    color: snow;
+}
+.rectangle2 .rectangleButton button a{
+    color: #29028a;
+}
+
+
+.hrefsContainer .rectangle3 {
+    margin: 50px 147px 50px 147px;
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    background-color: #29028a;
+    transition: box-shadow 0.3s ease-in-out;
+    border: 0;
+    border-radius: 1.5em;
+}
+.hrefsContainer .rectangle3:hover {
+    margin: 50px 147px 50px 147px;
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    background-color: #29028a;
+    -webkit-box-shadow: 20px -10px 25px 5px rgba(68,68,68,0.8);
+    -moz-box-shadow: 20px -10px 25px 5px rgba(68,68,68,0.8);
+    box-shadow: 20px -10px 25px 5px rgba(68,68,68,0.8);
+    border: 0;
+    border-radius: 1.5em;
+}
+.rectangle3 .rectangleImage {
+    max-width: inherit;
+}
+.rectangle3 .rectangleImage img {
+    border: 0;
+    border-radius: 1.5em;
+    max-width: inherit;
+}
+.rectangle3 .rectangleText {
+    color: snow;
+    display: grid;
+    place-items: center;
+    padding: 10px 15px;
+}
+.rectangle3 .rectangleText h3 {
+    text-align: inherit;
+}
+.rectangle3 .rectangleText p {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: inherit;
+}
+.rectangle3 .rectangleButton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  /* This will center the button horizontally */
+}
+.rectangle3 .rectangleButton button{
+    padding: 10px;
+    margin: 15px;
+    border: 0;
+    border-radius: 0.5em;
+    color: snow;
+}
+.rectangle3 .rectangleButton button a{
+    color: #29028a;
+}
+
+
+.multiContainer2 {
+    display: flex;
+    align-items: center;
+    max-width: 1600px;
+    margin: 40px auto;
+    padding: 20px;
+    gap: 40px;
+}
+.multiContainer2Texte h2 {
+    margin-bottom: 25px;
+}
+.multiContainer2Text1 {
+    color: snow;
+    margin: 10px;
+}
+.multiContainer2Text2 {
+    color: snow;
+    margin: 10px;
+}
+.multiContainer2 .rectangleMultiContainer2 {
+    margin: 50px 147px 50px 147px;
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    background-color: snow;
+    transition: box-shadow 0.3s ease-in-out;
+    border: 0;
+    border-radius: 1.5em;
+}
+.multiContainer2 .rectangleMultiContainer2:hover {
+    margin: 50px 147px 50px 147px;
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    background-color: snow;
+    -webkit-box-shadow: 0px -15px 25px 5px rgba(68,68,68,0.8);
+    -moz-box-shadow: 0px -15px 25px 5px rgba(68,68,68,0.8);
+    box-shadow: 0px -15px 25px 5px rgba(68,68,68,0.8);
+    border: 0;
+    border-radius: 1.5em;
+}
+.rectangleMultiContainer2 .rectangleImage {
+    max-width: inherit;
+}
+.rectangleMultiContainer2 .rectangleImage img {
+    border: 0;
+    border-radius: 1.5em;
+    max-width: inherit;
+}
+.rectangleMultiContainer2 .rectangleText {
+    display: grid;
+    place-items: center;
+    padding: 10px 15px;
+}
+.rectangleMultiContainer2 .rectangleText h3 {
+    text-align: inherit;
+}
+.rectangleMultiContainer2 .rectangleText p {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: inherit;
+}
+.rectangleMultiContainer2 .rectangleButton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  /* This will center the button horizontally */
+}
+.rectangleMultiContainer2 .rectangleButton button{
+    padding: 10px;
+    margin: 15px;
+    border: 0;
+    border-radius: 0.5em;
+    background-color: #023E8A;
+}
+.rectangleMultiContainer2 .rectangleButton button a{
+    color: snow;
+}
